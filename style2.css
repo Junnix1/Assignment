@@ -1,34 +1,31 @@
 
-<html lang="en">
-<style>
-        h1 {text-align: center;}
-</style>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width initial-scale=1.0">
-    <link rel="stylesheet" href="layout3.css">
-    <title>Pilapil</title>
-</head>
-<body>
-    <header class="borderline">
-            <h1>Header</h1>
-        </div>
-    </header>
-    <nav class="borderline">
-        <h1>Navigation</h1>
-    </nav>
-    <aside class="borderline">
-        <h1>SideBar</h1>
-    </aside>
-    <main class="borderline">
-        <h1>Main</h1>
-    </main>
-    <aside class="borderline">
-        <h1>Side Bar</h1>
-    </aside>
-    <footer class="borderline">
-        <h1>Footer</h1>
-    </footer>
+.borderLine{
+    border: 1px solid skyblue;
+    margin-top: 10px;
+}
 
-</body>
-</html>
+header{
+    
+    width: 100%;
+    height: 100px;
+}
+
+main{
+    width: 57%;
+    height: 100%;
+    float: left;
+    margin-left: 10;
+    margin-right: 10;
+}
+
+aside{
+    float: left;
+    width: 20%;
+    height: 100%;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    float: left;
+}
